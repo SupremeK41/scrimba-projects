@@ -6,8 +6,12 @@ My Scrimba course projects, grouped in one repository. This collection separates
 |---|---|---|
 | Business card | [business-card](business-card/) | HTML and CSS |
 | Hometown | [hometown](hometown/) | HTML and CSS |
+| Password generator | [password-generator](password-generator/) | JavaScript, DOM events and clipboard |
+| Basketball scoreboard | [basketball-scoreboard](basketball-scoreboard/) | JavaScript, state and DOM updates |
 
-Each project keeps its original files and setup instructions. Run commands from the individual project folder. The two original repositories remain available; their commit histories are included in this collection.
+Each project keeps its original files and setup instructions. Run commands from the individual project folder. The original repositories and their commit histories are retained. Password Generator and Basketball Scoreboard were added publicly with permission; their original repositories remain private.
+
+The password generator is a learning exercise using  `Math.random()`; it is not intended for real password security.
 
 ## Learning notes
 
