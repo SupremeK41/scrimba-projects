@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "UnifrakturCook", cursive;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    background: linear-gradient(#a2d2ff, #e9ebc1);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.hero {
+    background-image: url("https://www.cottagesandlodges.co.uk/wp-content/uploads/2026/03/Leicestershire-banner-1-1920x600.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0;
+    padding: 40px 20px;
+}
+
+#act-img-one {
+    background-image: url("https://visitleicester.info/wp-content/uploads/2025/11/QOL-sn-jewry-wall-and-st-nicholas-church-scaled.jpg");
+}
+
+#act-img-two {
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Leicester_City_crest.svg/1280px-Leicester_City_crest.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail");
+}
+
+#act-img-three {
+    background-image: url("https://img.magnific.com/free-photo/top-view-fast-food-mix-mozzarella-sticks-club-sandwich-hamburger-mushroom-pizza-caesar-shrimp-salad-french-fries-ketchup-mayo-cheese-sauces-table_141793-3998.jpg?semt=ais_test_b&w=740&q=80");
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-shadow: 0 0 5px black;
+}
+
+.act-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#activities {
+    margin: 0 0 35px;
+}
+
+.activities {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.activity {
+    width: 180px;
+    text-shadow: 0 0 5px black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+.act-title {
+    margin: 0 0 12px;
+}
+
+.act-img {
+    width: 100px;
+    height: 100px;
+
+    border: 3px solid white;
+    border-radius: 50%;
+
+    background-size: cover;
+    background-position: center;
+
+    flex-shrink: 0;
+}
+
+.act-description {
+    margin: 15px 0 0;
+    line-height: 1.4;
+}
+
+.guide {
+    text-shadow: 0 0 5px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 50px auto;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    margin: 50px auto 0;
+}
+
+#guide-text {
+    margin: 10px;
+    max-width: 400px;
+}
+
+#linkedIn {
+    margin: 20px 0;
+    height: 200px;
+    width: 200px;
+    border-radius: 6px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://media.licdn.com/dms/image/v2/D4E03AQGZVYZObApjzw/profile-displayphoto-scale_400_400/B4EZ9wz92WIsAk-/0/1784304102187?e=1787788800&v=beta&t=8rMWQs7P-c8zbg3E1tj6HpHBbV-BzFAbgNZoC9DofVA");
+    transition: 0.3s;
+    flex-shrink: 0;
+}
+
+#linkedIn:hover {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbOXdrXFaAxHuQwRXsgN_vB1HtW2cCIzGLWItLB3k345g_usVzBpFCU7g&s=10");
+    transform: scale(1.08);
+    box-shadow: 0 0 20px #0077B5;
+}
