@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    color: white;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+}
+
+.scorecon{
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    color: #F94F6D;
+    font-size: 45px;
+    
+}
+
+.button{
+    width: 45px;
+    height: 45px;
+    background-color: #1B244A;
+    border-radius: 5px;
+    border-color: #9AABD8;
+    margin-top: 10px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #9AABD8;
+    font-size: 20px;
+}
+
+.resetcol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+#reset{
+    width: 75px;
+    height: 40px;
+}
